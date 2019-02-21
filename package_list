@@ -1,4 +1,6 @@
 vim
+htop
+lsof
 pacman
 pacman-contrib
 evolution
