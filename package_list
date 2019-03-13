@@ -1,4 +1,5 @@
 base-devel
+ccache
 vim
 htop
 lsof
