@@ -1,5 +1,6 @@
 base-devel
 ccache
+rsync
 vim
 htop
 lsof
