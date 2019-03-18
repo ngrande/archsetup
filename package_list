@@ -3,6 +3,7 @@ ccache
 rsync
 tree
 xournal
+ntp
 vim
 htop
 lsof
