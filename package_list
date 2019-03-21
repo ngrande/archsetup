@@ -4,6 +4,7 @@ rsync
 tree
 xournal
 ntp
+evnice
 vim
 htop
 lsof
