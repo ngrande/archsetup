@@ -1,4 +1,6 @@
 base-devel
+bpython
+python-jedi
 ccache
 rsync
 tree
