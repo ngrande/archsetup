@@ -1,3 +1,8 @@
+echo "Creating some directories for a n1ce workflow"
+# ok so far this is only one...
+mkdir ~/projects
+
+
 echo "Installing packages using pacman"
 sudo pacman -S $(cat package_list) --needed
 
