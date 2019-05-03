@@ -27,6 +27,7 @@ archey3
 bash-completion
 btrfs-progs
 cifs-utils
+tmux
 cups
 cups-pdf
 curl
