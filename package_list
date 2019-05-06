@@ -5,6 +5,7 @@ ccache
 rsync
 tree
 xournalpp
+alacritty
 ntp
 evince
 ttf-dejavu
@@ -52,4 +53,3 @@ openssh
 smartmontools
 smbclient
 sshfs
-rxvt-unicode
