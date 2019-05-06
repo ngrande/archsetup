@@ -52,3 +52,4 @@ openssh
 smartmontools
 smbclient
 sshfs
+rxvt-unicode
