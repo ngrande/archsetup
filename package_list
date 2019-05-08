@@ -54,6 +54,8 @@ hunspell-en_US
 hunspell
 networkmanager
 xss-lock
+pulseaudio
+pulseaudio-alsa
 networkmanager-openvpn
 network-manager-applet
 openssh
