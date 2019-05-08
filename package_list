@@ -28,6 +28,10 @@ archey3
 bash-completion
 btrfs-progs
 cifs-utils
+compton
+feh
+xfce4-power-manager
+ranger
 xsel
 tmux
 cups
@@ -35,6 +39,8 @@ cups-pdf
 curl
 wget
 w3m
+dmenu
+i3
 diffutils
 easy-rsa
 fakeroot
