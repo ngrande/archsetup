@@ -53,6 +53,7 @@ hunspell-de
 hunspell-en_US
 hunspell
 networkmanager
+xss-lock
 networkmanager-openvpn
 network-manager-applet
 openssh
