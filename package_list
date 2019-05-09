@@ -56,6 +56,9 @@ highlight
 hunspell-de
 hunspell-en_US
 hunspell
+ttf-font-awesome
+ttf-hack
+awesome-terminal-fonts
 networkmanager
 xss-lock
 pulseaudio
