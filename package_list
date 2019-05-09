@@ -44,6 +44,7 @@ i3
 lxappearance
 gtk-engines
 gtk-engine-murrine
+rofi
 diffutils
 easy-rsa
 fakeroot
