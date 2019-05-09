@@ -41,6 +41,9 @@ wget
 w3m
 dmenu
 i3
+lxappearance
+gtk-engines
+gtk-engine-murrine
 diffutils
 easy-rsa
 fakeroot
