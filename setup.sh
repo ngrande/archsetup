@@ -1,14 +1,56 @@
-echo "Creating some directories for a n1ce workflow"
-# ok so far this is only one...
-mkdir ~/projects
+#!/bin/bash
 
+# Script to install most important packages
 
-echo "Installing packages using pacman"
-sudo pacman -S $(cat package_list) --needed
+if ! [ -d ~/projects ];
+then
+	echo "Creating a projects dir for a n1ce workflow"
+	mkdir ~/projects
+fi
+
+check_list() {
+	local res=""
+	list="$(cat $1)"
+	for pkg in $list
+	do
+		# check if package is installed
+		pacman -Q $pkg &> /dev/null
+		if [[ $? -ne 0 ]];
+		then
+			# check if it is a group
+			pacman -Qg $pkg &> /dev/null
+			if [[ $? -eq 0 ]];
+			then
+				continue
+			fi
+			res="$res $pkg"
+		fi
+	done
+
+	echo $res
+}
+
+install() {
+	installer=$1
+	list=$2
+	echo "Installing packages with $installer: $(echo $list)"
+
+	if [ "$list" == "" ];
+	then
+		echo "Nothing to install"
+		return
+	fi
+
+	echo "Installing: $(echo $list)"
+	$installer -S --needed $list
+}
+
+echo "Collecting arch repository packages to install..."
+pac_list=$(check_list package_list)
+install "sudo pacman" "$pac_list"
 
 pacman -Q yay
-yay_installed=$?
-if [ $yay_installed != 0 ]; then
+if [ $? -ne 0 ]; then
 	echo "Installing yay (aur helper)"
 	echo "Confirm with [ENTER]"
 	read
@@ -20,5 +62,6 @@ if [ $yay_installed != 0 ]; then
 	rm -rf yay
 fi
 
-echo "Now installing aur packages using yay"
-yay -S --needed  $(cat aur_list)
+echo "Collecting AUR packages to install..."
+aur_list=$(check_list aur_list)
+install yay "$aur_list"
