@@ -45,6 +45,9 @@ lxappearance
 gtk-engines
 gtk-engine-murrine
 rofi
+sysstat
+evtest
+xorg-xev
 diffutils
 easy-rsa
 fakeroot
