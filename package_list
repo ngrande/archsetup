@@ -6,12 +6,14 @@ bash-completion
 bpython
 btrfs-progs
 ccache
+checkbashisms
 cifs-utils
 compton
 cronie
 cups
 cups-pdf
 curl
+dash
 diffutils
 dmenu
 easy-rsa
