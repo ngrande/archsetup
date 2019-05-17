@@ -3,6 +3,7 @@ archey3
 awesome-terminal-fonts
 base-devel
 bash-completion
+bind-tools
 bpython
 btrfs-progs
 ccache
@@ -43,7 +44,6 @@ lsof
 lxappearance
 mlocate
 networkmanager
-network-manager-applet
 networkmanager-openvpn
 ntp
 openssh
