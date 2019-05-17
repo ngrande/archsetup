@@ -28,6 +28,7 @@ font-bh-ttf
 fontconfig
 fzf
 grep
+gnome-keyring
 gtk-engine-murrine
 gtk-engines
 highlight
