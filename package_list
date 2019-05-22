@@ -30,6 +30,7 @@ fontconfig
 fzf
 grep
 gnome-keyring
+gnu-netcat
 gtk-engine-murrine
 gtk-engines
 highlight
