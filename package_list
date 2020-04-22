@@ -47,7 +47,6 @@ lxappearance
 mlocate
 networkmanager
 networkmanager-openvpn
-ntp
 oath-toolkit
 openssh
 pacman
@@ -82,4 +81,5 @@ xsel
 cpupower
 fuse2
 xss-lock
+chrony
 man
