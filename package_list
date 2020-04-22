@@ -79,5 +79,6 @@ xorg-xev
 xorg-xrandr
 xournalpp
 xsel
+cpupower
 fuse2
 xss-lock
