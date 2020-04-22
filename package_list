@@ -1,4 +1,3 @@
-oath-toolkit
 alacritty
 archey3
 awesome-terminal-fonts
@@ -29,9 +28,10 @@ firefox
 font-bh-ttf
 fontconfig
 fzf
-grep
 gnome-keyring
 gnu-netcat
+go
+grep
 gtk-engine-murrine
 gtk-engines
 highlight
@@ -48,6 +48,7 @@ mlocate
 networkmanager
 networkmanager-openvpn
 ntp
+oath-toolkit
 openssh
 pacman
 pacman-contrib
@@ -75,6 +76,7 @@ whois
 wpa_supplicant
 xfce4-power-manager
 xorg-xev
+xorg-xrandr
 xournalpp
 xsel
 xss-lock
