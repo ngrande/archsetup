@@ -36,6 +36,12 @@ gtk-engine-murrine
 gtk-engines
 highlight
 htop
+acpi_call
+tlp
+noto-fonts-emoji
+noto-fonts-cjk
+noto-fonts
+intel-gpu-tools
 hunspell
 hunspell-de
 hunspell-en_US
@@ -47,6 +53,7 @@ lxappearance
 mlocate
 networkmanager
 networkmanager-openvpn
+
 alsa-utils
 acpi
 oath-toolkit
