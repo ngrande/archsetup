@@ -91,6 +91,7 @@ wget
 whois
 wpa_supplicant
 xfce4-power-manager
+gnome-screenshot
 xorg-xev
 xorg-xrandr
 xournalpp
