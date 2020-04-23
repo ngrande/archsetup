@@ -47,6 +47,7 @@ lxappearance
 mlocate
 networkmanager
 networkmanager-openvpn
+alsa-utils
 acpi
 oath-toolkit
 openssh
