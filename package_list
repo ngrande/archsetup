@@ -47,6 +47,7 @@ lxappearance
 mlocate
 networkmanager
 networkmanager-openvpn
+acpi
 oath-toolkit
 openssh
 pacman
