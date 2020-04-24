@@ -78,6 +78,7 @@ smbclient
 sshfs
 sysstat
 tlp
+ethtool
 traceroute
 tree
 ttf-dejavu
