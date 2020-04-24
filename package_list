@@ -97,4 +97,5 @@ xorg-xrandr
 xournalpp
 xsel
 sddm
+ansible
 xss-lock
