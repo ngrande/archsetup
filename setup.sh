@@ -65,3 +65,15 @@ fi
 echo "Collecting AUR packages to install..."
 aur_list=$(check_list aur_list)
 install yay "$aur_list"
+
+echo "+++++"
+echo "++++++"
+echo "+++++++"
+echo "+++++++++"
+echo "+++++++++++++"
+echo ""
+echo "Last but not least! Read ./SETUP.md"
+echo ""
+echo "-----------------------------------"
+echo ""
+echo -e "\e[1m\e[38;2;230;219;116m$(cat ./SETUP.md)\e[0m"
