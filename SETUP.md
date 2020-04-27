@@ -20,6 +20,25 @@ sudo systemctl enable chronyd.service
 sudo systemctl start chronyd.service
 ```
 
+## Fonts
+use this reddigt guide [here](https://www.reddit.com/r/archlinux/comments/5r5ep8/make_your_arch_fonts_beautiful_easily/)
+
+## vimrc
+setup vimrc for root with
+```
+filetype indent plugin on
+syntax enable
+set term=xterm-256color
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set noexpandtab
+set list
+set listchars=tab:>-,trail:.,space:·
+set nrformats="bin,hex"
+set termguicolors
+```
+
 ## Laptop
 to save power one might want to use TLP
 
