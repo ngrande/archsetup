@@ -1,9 +1,10 @@
-autorandr
 acpi
 acpi_call
 alacritty
 alsa-utils
+ansible
 archey3
+autorandr
 awesome-terminal-fonts
 base-devel
 bash-completion
@@ -14,7 +15,6 @@ ccache
 checkbashisms
 chrony
 cifs-utils
-picom
 cpupower
 cronie
 cups
@@ -24,6 +24,7 @@ dash
 diffutils
 dmenu
 easy-rsa
+ethtool
 evince
 evolution
 evolution-ews
@@ -36,6 +37,7 @@ fontconfig
 fuse2
 fzf
 gnome-keyring
+gnome-screenshot
 gnu-netcat
 go
 grep
@@ -63,6 +65,7 @@ oath-toolkit
 openssh
 pacman
 pacman-contrib
+picom
 pulseaudio
 pulseaudio-alsa
 python-aiohttp
@@ -73,17 +76,18 @@ python-requests-oauthlib
 ranger
 rofi
 rsync
+sddm
 smartmontools
 smbclient
 sshfs
 sysstat
 tlp
-ethtool
 traceroute
 tree
 ttf-dejavu
 ttf-font-awesome
 ttf-hack
+ttf-liberation
 valgrind
 vim
 w3m
@@ -91,11 +95,8 @@ wget
 whois
 wpa_supplicant
 xfce4-power-manager
-gnome-screenshot
 xorg-xev
 xorg-xrandr
 xournalpp
 xsel
-sddm
-ansible
 xss-lock
