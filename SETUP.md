@@ -39,6 +39,9 @@ set nrformats="bin,hex"
 set termguicolors
 ```
 
+## pacman / makepkg
+to speedup things when installing from the AUR use the following [guide](https://wiki.archlinux.org/index.php/makepkg#Improving_compile_times)
+
 ## Laptop
 to save power one might want to use TLP
 
