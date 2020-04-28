@@ -51,6 +51,7 @@ hunspell-en_US
 i3
 intel-gpu-tools
 keepassxc
+libinput
 libreoffice-fresh
 lsof
 lxappearance
@@ -79,6 +80,7 @@ rsync
 sddm
 smartmontools
 smbclient
+snapper
 sshfs
 sysstat
 tlp

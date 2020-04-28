@@ -23,6 +23,15 @@ sudo systemctl start chronyd.service
 ## Fonts
 use this reddigt guide [here](https://www.reddit.com/r/archlinux/comments/5r5ep8/make_your_arch_fonts_beautiful_easily/)
 
+## crond
+start a cron daemon `sudo systemctl enable cronie.service`
+
+## snapper
+when using btrfs make use of the snapshots
+```
+snapper make-config <subvol>
+```
+
 ## vimrc
 setup vimrc for root with
 ```
@@ -55,3 +64,10 @@ and check the status for _recommendations_
 ```
 sudo tlp-stat
 ```
+
+### libinput
+configure libinput for your needs
+
+### BTRFS
+for btrfs set `SATA_LINKPWR_ON_BAT="max_performance"`
+
