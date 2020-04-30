@@ -101,4 +101,9 @@ xorg-xev
 xorg-xrandr
 xournalpp
 xsel
+playerctl
+snapper
+xclip
+net-tools
+acpid
 xss-lock
