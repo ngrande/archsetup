@@ -1,5 +1,6 @@
 acpi
 fwupd
+dunst
 acpi_call
 alacritty
 alsa-utils
