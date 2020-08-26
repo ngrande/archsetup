@@ -1,8 +1,6 @@
 acpi
-fwupd
-dunst
-man-pages
 acpi_call
+acpid
 alacritty
 alsa-utils
 ansible
@@ -26,6 +24,7 @@ curl
 dash
 diffutils
 dmenu
+dunst
 easy-rsa
 ethtool
 evince
@@ -38,6 +37,7 @@ firefox
 font-bh-ttf
 fontconfig
 fuse2
+fwupd
 fzf
 gnome-keyring
 gnome-screenshot
@@ -59,7 +59,10 @@ libreoffice-fresh
 lsof
 lxappearance
 man
+man-pages
 mlocate
+moreutils
+net-tools
 networkmanager
 networkmanager-openvpn
 noto-fonts
@@ -70,6 +73,7 @@ openssh
 pacman
 pacman-contrib
 picom
+playerctl
 pulseaudio
 pulseaudio-alsa
 python-aiohttp
@@ -80,6 +84,7 @@ python-requests-oauthlib
 ranger
 rofi
 rsync
+samba
 sddm
 smartmontools
 smbclient
@@ -99,14 +104,10 @@ w3m
 wget
 whois
 wpa_supplicant
+xclip
 xfce4-power-manager
 xorg-xev
 xorg-xrandr
 xournalpp
 xsel
-playerctl
-snapper
-xclip
-net-tools
-acpid
 xss-lock
